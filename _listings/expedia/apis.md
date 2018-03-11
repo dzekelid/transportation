@@ -19,20 +19,11 @@ tags:
 - Hotels
 - Flights
 - Booking
-created: "2018-02-26"
-modified: "2018-02-26"
+created: "2018-03-10"
+modified: "2018-03-10"
 url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/expedia/apis.yaml
 specificationVersion: "0.14"
-apis:
-- name: Expedia
-  description: Expedia
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Expedia_logo.svg.png
-  humanURL: ""
-  baseURL: https://apim.expedia.com/x/
-  tags: Transportation
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/expedia/m-api-hotel-search-v3-get.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.ean.com
