@@ -28,7 +28,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/lyft/rides-id-cancel-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/lyft/rides-id-destination-put.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
