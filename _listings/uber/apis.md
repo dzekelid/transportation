@@ -33,7 +33,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/uber/estimates-price-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/uber/estimates-time-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
