@@ -13,9 +13,9 @@ tags:
 - Stack Network
 - Stack
 - Imports
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/lyft/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Lyft
@@ -28,7 +28,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/cost-get.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
