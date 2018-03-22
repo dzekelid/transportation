@@ -17,9 +17,9 @@ tags:
 - Autos
 - Automobile
 - API LIfeycle
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/uber/apis.yaml
+created: "2018-03-22"
+modified: "2018-03-22"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Uber
@@ -33,7 +33,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/uber/history-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/products-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
