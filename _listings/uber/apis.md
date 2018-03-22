@@ -33,7 +33,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/me-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/history-get.md
 x-common:
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
