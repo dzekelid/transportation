@@ -28,7 +28,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-receipt-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/ridetypes-get.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
