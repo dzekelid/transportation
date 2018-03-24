@@ -28,7 +28,7 @@ apis:
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-primetime-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-rides-id-put.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
