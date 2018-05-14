@@ -29,18 +29,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
-- name: Lyft Available drivers nearby
-  description: The drivers endpoint returns a list of nearby drivers' lat and lng
-    at a given location.
+- name: Lyft Pickup ETAs
+  description: The ETA endpoint lets you know how quickly a Lyft driver can come get
+    you
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/drivers-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/eta-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/drivers-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/eta-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
