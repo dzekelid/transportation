@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Add the passenger's rating, feedback, and tip
+  description: Add the passenger's 1 to 5 star rating of the ride, optional written
+    feedback, and optional tip amount in minor units and currency. The ride must already
+    be dropped off, and ratings must be given within 24 hours of drop off. For purposes
+    of display, 5 is considered the default rating. When this endpoint is successfully
+    called, payment processing will begin.
   contact:
     name: Lyft
     url: http://developer.lyft.com
