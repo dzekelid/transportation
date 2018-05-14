@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Pickup ETAs
+  description: The ETA endpoint lets you know how quickly a Lyft driver can come get
+    you
   contact:
     name: Lyft
     url: http://developer.lyft.com
