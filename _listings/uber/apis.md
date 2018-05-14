@@ -34,20 +34,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/history-get.md
-- name: Uber Time Estimates
-  description: The Time Estimates endpoint returns ETAs for all products offered at
-    a given location, with the responses expressed as integers in seconds. We recommend
-    that this endpoint be called every minute to provide the most accurate, up-to-date
-    ETAs.
+- name: Uber User Profile
+  description: The User Profile endpoint returns information about the Uber user that
+    has authorized with the application.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-time-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/me-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-time-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/me-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
