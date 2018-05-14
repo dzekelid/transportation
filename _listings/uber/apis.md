@@ -34,7 +34,42 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/history-get.md
+- name: Uber Product Types
+  description: The Products endpoint returns information about the Uber products offered
+    at a given location. The response includes the display name and other details
+    about each product, and lists the products in the proper display order.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
+  humanURL: https://uber.com
+  baseURL: https://api.uber.com//v1
+  tags: Transportation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/products-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/products-get-postman.md
 x-common:
+- type: x-apijson--authoritative
+  url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
+- type: x-blog
+  url: https://medium.com/@UberPubPolicy
+- type: x-blog
+  url: https://devblog.uber.com/
+- type: x-blog-rss
+  url: https://medium.com/feed/@UberPubPolicy
+- type: x-blog-rss
+  url: https://devblog.uber.com/feed/
+- type: x-developer
+  url: https://developer.uber.com/
+- type: x-github
+  url: https://github.com/uber
+- type: x-transparency-report
+  url: https://transparencyreport.uber.com/
+- type: x-twitter
+  url: https://twitter.com/uber_api
+- type: x-twitter
+  url: https://twitter.com/UberPubPolicy
+- type: x-website
+  url: https://uber.com
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
 - type: x-blog
