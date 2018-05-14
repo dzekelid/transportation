@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Preset Prime Time percentage
+  description: Preset a Prime Time percentage in the region surrounding the specified
+    location. This Prime Time percentage will be applied when requesting cost, or
+    when requesting a ride in sandbox mode.
   contact:
     name: Lyft
     url: http://developer.lyft.com
