@@ -29,7 +29,44 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
+- name: Lyft Cost estimates
+  description: Estimate the cost of taking a Lyft between two points.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
+  humanURL: https://www.lyft.com/
+  baseURL: https://api.lyft.com//v1
+  tags: Transportation
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/cost-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/cost-get-postman.md
 x-common:
+- type: x-authentication
+  url: https://developer.lyft.com/docs/authentication
+- type: x-blog
+  url: http://blog.lyft.com/
+- type: x-blog-rss
+  url: http://blog.lyft.com/posts?format=RSS
+- type: x-branding
+  url: https://developer.lyft.com/docs/brand-guidelines
+- type: x-developer
+  url: https://www.lyft.com/developers
+- type: x-documentation
+  url: http://petstore.swagger.io/?url=https://api.lyft.com/v1/spec
+- type: x-github
+  url: https://github.com/lyft
+- type: x-manage-applications
+  url: https://www.lyft.com/developers/manage
+- type: x-openapi-spec
+  url: https://api.lyft.com/v1/spec
+- type: x-partners
+  url: https://www.lyft.com/partnerships
+- type: x-rate-limits
+  url: https://developer.lyft.com/docs/rate-limits
+- type: x-twitter
+  url: https://twitter.com/lyft
+- type: x-website
+  url: https://www.lyft.com/
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
 - type: x-blog
