@@ -29,17 +29,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
-- name: Lyft Cost estimates
-  description: Estimate the cost of taking a Lyft between two points.
+- name: Lyft Available drivers nearby
+  description: The drivers endpoint returns a list of nearby drivers' lat and lng
+    at a given location.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/cost-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/drivers-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/cost-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/drivers-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
