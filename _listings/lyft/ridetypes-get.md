@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Types of rides
+  description: The ride types endpoint returns information about what kinds of Lyft
+    rides you can request at a given location.
   contact:
     name: Lyft
     url: http://developer.lyft.com
