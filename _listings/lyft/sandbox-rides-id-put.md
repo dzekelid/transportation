@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Propagate ride through ride status
+  description: Propagate a sandbox-ride through various ride status
   contact:
     name: Lyft
     url: http://developer.lyft.com
