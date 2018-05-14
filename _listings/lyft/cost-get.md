@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Cost estimates
+  description: Estimate the cost of taking a Lyft between two points.
   contact:
     name: Lyft
     url: http://developer.lyft.com
