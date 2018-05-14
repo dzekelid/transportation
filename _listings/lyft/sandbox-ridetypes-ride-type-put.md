@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Driver availability for processing ride request
+  description: Set driver availability for the provided ride_type in the city/region
+    surrounding the specified location
   contact:
     name: Lyft
     url: http://developer.lyft.com
