@@ -38,17 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-post.md
-- name: Lyft Preset types of rides for sandbox
-  description: The sandbox-ridetypes endpoint allows you to preset the ridetypes in
-    the region surrounding the specified latitude and longitude to allow testing different
-    scenarios
+- name: Lyft Driver availability for processing ride request
+  description: Set driver availability for the provided ride_type in the city/region
+    surrounding the specified location
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
