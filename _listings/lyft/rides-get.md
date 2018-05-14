@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft List rides
+  description: Get a list of past & current rides for this passenger.
   contact:
     name: Lyft
     url: http://developer.lyft.com
