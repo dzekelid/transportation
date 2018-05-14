@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Available drivers nearby
+  description: The drivers endpoint returns a list of nearby drivers' lat and lng
+    at a given location.
   contact:
     name: Lyft
     url: http://developer.lyft.com
