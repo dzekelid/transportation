@@ -29,18 +29,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
-- name: Lyft Types of rides
-  description: The ride types endpoint returns information about what kinds of Lyft
-    rides you can request at a given location.
+- name: Lyft Preset Prime Time percentage
+  description: Preset a Prime Time percentage in the region surrounding the specified
+    location. This Prime Time percentage will be applied when requesting cost, or
+    when requesting a ride in sandbox mode.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/ridetypes-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/ridetypes-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-primetime-put.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
