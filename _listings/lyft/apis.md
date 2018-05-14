@@ -38,16 +38,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-post.md
-- name: Lyft Cancel a ongoing requested ride
-  description: Cancel a ongoing ride which was requested earlier by providing the
-    ride id.
+- name: Lyft Update the destination of the ride
+  description: Add or update the ride's destination. Note that the ride must still
+    be active (not droppedOff or canceled), and that destinations on Lyft Line rides
+    can not be changed.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-cancel-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-destination-put.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
