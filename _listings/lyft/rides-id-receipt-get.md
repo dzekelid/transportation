@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Get the receipt of the rides.
+  description: Get the receipt information of a processed ride by providing the ride
+    id. Receipts will only be available to view once the payment has been processed.
+    In the case of canceled ride, cancellation penalty is included if applicable.
   contact:
     name: Lyft
     url: http://developer.lyft.com
