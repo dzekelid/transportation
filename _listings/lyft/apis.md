@@ -38,19 +38,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-post.md
-- name: Lyft Add the passenger's rating, feedback, and tip
-  description: Add the passenger's 1 to 5 star rating of the ride, optional written
-    feedback, and optional tip amount in minor units and currency. The ride must already
-    be dropped off, and ratings must be given within 24 hours of drop off. For purposes
-    of display, 5 is considered the default rating. When this endpoint is successfully
-    called, payment processing will begin.
+- name: Lyft Get the receipt of the rides.
+  description: Get the receipt information of a processed ride by providing the ride
+    id. Receipts will only be available to view once the payment has been processed.
+    In the case of canceled ride, cancellation penalty is included if applicable.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-rating-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-receipt-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-receipt-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
