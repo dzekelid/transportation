@@ -29,17 +29,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/sandbox-ridetypes-ride-type-put.md
-- name: Lyft List rides
-  description: Get a list of past & current rides for this passenger.
+- name: Lyft Request a Lyft
+  description: Request a Lyft come pick you up at the given location.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-post.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
