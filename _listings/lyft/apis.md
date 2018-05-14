@@ -38,18 +38,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-post.md
-- name: Lyft Get the ride detail of a given ride ID
-  description: Get the status of a ride along with information about the driver, vehicle
-    and price of a given ride ID
+- name: Lyft Cancel a ongoing requested ride
+  description: Cancel a ongoing ride which was requested earlier by providing the
+    ride id.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lyft-logo.png
   humanURL: https://www.lyft.com/
   baseURL: https://api.lyft.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/lyft/rides-id-cancel-post.md
 x-common:
 - type: x-authentication
   url: https://developer.lyft.com/docs/authentication
