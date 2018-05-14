@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Preset types of rides for sandbox
+  description: The sandbox-ridetypes endpoint allows you to preset the ridetypes in
+    the region surrounding the specified latitude and longitude to allow testing different
+    scenarios
   contact:
     name: Lyft
     url: http://developer.lyft.com
