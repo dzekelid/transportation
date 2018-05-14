@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft The user's general info
+  description: The v1 of this endpoint returns the user's ID, v2 will return more
+    general info about the user. We require authentication for this endpoint, so we
+    extract the user ID from the access token.
   contact:
     name: Lyft
     url: http://developer.lyft.com
