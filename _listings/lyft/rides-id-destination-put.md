@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Update the destination of the ride
+  description: Add or update the ride's destination. Note that the ride must still
+    be active (not droppedOff or canceled), and that destinations on Lyft Line rides
+    can not be changed.
   contact:
     name: Lyft
     url: http://developer.lyft.com
