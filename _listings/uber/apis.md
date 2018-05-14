@@ -34,23 +34,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/history-get.md
-- name: Uber Price Estimates
-  description: The Price Estimates endpoint returns an estimated price range for each
-    product offered at a given location. The price estimate is provided as a formatted
-    string with the full price range and the localized currency symbol.<br><br>The
-    response also includes low and high estimates, and the [ISO 4217](http://en.wikipedia.org/wiki/ISO_4217)
-    currency code for situations requiring currency conversion. When surge is active
-    for a particular product, its surge_multiplier will be greater than 1, but the
-    price estimate already factors in this multiplier.
+- name: Uber Time Estimates
+  description: The Time Estimates endpoint returns ETAs for all products offered at
+    a given location, with the responses expressed as integers in seconds. We recommend
+    that this endpoint be called every minute to provide the most accurate, up-to-date
+    ETAs.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uber-logo.png
   humanURL: https://uber.com
   baseURL: https://api.uber.com//v1
   tags: Transportation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-price-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-time-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-price-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/uber/estimates-time-get-postman.md
 x-common:
 - type: x-apijson--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/uber.json
