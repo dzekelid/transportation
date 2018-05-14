@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Lyft
-  description: Drive your app to success with Lyft's API
+  title: Lyft Cancel a ongoing requested ride
+  description: Cancel a ongoing ride which was requested earlier by providing the
+    ride id.
   contact:
     name: Lyft
     url: http://developer.lyft.com
