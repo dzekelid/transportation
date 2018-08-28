@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Uber
 x-complete: 1
@@ -31,30 +30,6 @@ paths:
         name: longitude
         description: Longitude component of location
       responses:
-        1:
-          description: User not found
-        100:
-          description: Invalid API Key - The API key passed was not valid or has expired
-        105:
-          description: Service currently unavailable - The requested service is temporarily
-            unavailable
-        106:
-          description: Write operation failed - The requested operation failed due
-            to a temporary issue
-        111:
-          description: Format "xxx" not found - The requested response format was
-            not found
-        112:
-          description: Method "xxx" not found - The requested method was not found
-        114:
-          description: Invalid SOAP envelope - The SOAP envelope send in the request
-            could not be parsed
-        115:
-          description: Invalid XML-RPC Method Call - The XML-RPC request document
-            could not be parsed
-        116:
-          description: Bad URL found - One or more arguments contained a URL that
-            has been used for abuse on Flickr
         200:
           description: OK
       tags:
@@ -152,4 +127,3 @@ paths:
           description: OK
       tags:
       - Transportation
----

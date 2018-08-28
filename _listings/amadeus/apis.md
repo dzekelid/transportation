@@ -1,24 +1,22 @@
 ---
 name: Amadeus
+x-slug: amadeus
 description: Amadeus travel technology helps businesses connect to the global travel
   ecosystem, manage operations more effectively and serve travellers better than ever
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
 x-kinRank: "8"
 x-alexaRank: "4309"
-tags:
-- Travel
-- Transportation
-- Technology
-- New
-- Marketplace
-- Hotel
-- Airlines
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/amadeus/apis.yaml
+tags: Transportation
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/amadeus/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
+- type: x-api-gallery
+  url: http://amadeus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://amadeus.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
 - type: x-documentation
@@ -29,8 +27,6 @@ x-common:
   url: http://www.amadeus.com/web/amadeus/en_1A-corporate/Amadeus-Home/Amadeus_IT_Group_SA-Legal-notices-2014/1319560218660-Page-AMAD_Detail_PopUp_Ppal?assetid=1319607040997&assettype=DataProtection_C
 - type: x-sandbox
   url: https://sandbox.amadeus.com
-- type: x-terms-of-service
-  url: http://www.amadeus.com/web/amadeus/en_1A-corporate/Amadeus-Home/Amadeus_IT_Group_SA-Legal-notices-2014/1319560218660-Page-AMAD_Detail_PopUp_Ppal?assetid=1319607040997&assettype=DataProtection_C
 - type: x-twitter
   url: https://twitter.com/amadeusinnov
 - type: x-website

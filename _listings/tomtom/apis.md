@@ -1,39 +1,26 @@
 ---
 name: TomTom
-description: TomTom is a Dutch manufacturer of automotive navigation systems, including
-  both stand-alone units and software for personal digital assistants and mobile telephones.
-  It is a leading manufacturer of navigation systems in Europe. TomToms customer service
-  is located in Amsterdam, Netherlands. TomTom was a follow-up of Palmtop Software,
-  founded by Peter-Frans Pauwels, Pieter Geelen, Harold Goddijn and Corinne Vigreux
-  in 1991.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/663_logo.png
-x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Transportation
-- Stack Network
-- Fleet Management
-- Automobiles
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/transportation/master/_listings/tomtom/apis.yaml
+x-slug: tomtom
+description: Global leader in navigation, traffic and map products, GPS Sport Watches
+  and fleet management solutions.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28267-developer-tomtom-com.jpg
+x-kinRank: "7"
+x-alexaRank: "6007"
+tags: Transportation
+created: "2018-08-28"
+modified: "2018-08-28"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/transportation/master/_listings/tomtom/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:
-- type: x-blog
-  url: http://business.tomtom.com/en_us/fleet-management/integration/blog/
-- type: x-blog-rss
-  url: http://business.tomtom.com/en_us/press/news/rss
 - type: x-crunchbase
-  url: http://www.crunchbase.com/company/tomtom-international
-- type: x-github
-  url: https://github.com/tomtom
-- type: x-github
-  url: https://github.com/tomtom-international
+  url: https://crunchbase.com/organization/tomtom-international
+- type: x-email
+  url: illegalproduct@tomtom.com
 - type: x-twitter
   url: https://twitter.com/TomTom
 - type: x-website
-  url: http://business.tomtom.com/en_us/solutions/integration/resources/
+  url: https://developer.tomtom.com
 include: []
 maintainers:
 - FN: Kin Lane
